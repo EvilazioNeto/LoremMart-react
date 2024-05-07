@@ -1,0 +1,74 @@
+{
+  "produtos": [
+      {
+          "nome": "Óculos de Sol",
+          "descricao": "Óculos de Sol Aviador de Acetato Preto.",
+          "preco": "$1200.00",
+          "imagem": "img1.png",
+          "categoria": "Accessories"
+      },
+      {
+          "nome": "Shoe",
+          "descricao": "Um Sapato elegante para qualquer ocasião.",
+          "preco": "$1500.00",
+          "imagem": "img2.png",
+          "categoria": "Shoes"
+      },
+      {
+          "nome": "Yellow handbag",
+          "descricao": "Uma Bolsa Amarela espaçosa e moderna.",
+          "preco": "$100.00",
+          "imagem": "img3.png",
+          "categoria": "Bag"
+      },
+      {
+          "nome": "Fleece Blue",
+          "descricao": "Uma Camiseta Fleece Azul confortável para o dia a dia.",
+          "preco": "$250.00",
+          "imagem": "img4.png",
+          "categoria": "T-Shirt"
+      },
+      {
+          "nome": "Black Fleece",
+          "descricao": "Um Casaco Preto elegante e quente para o inverno.",
+          "preco": "$800.00",
+          "imagem": "img5.png",
+          "categoria": "Jacket"
+      },
+      {
+          "nome": "Brown Hat",
+          "descricao": "Um Chapéu Marrom clássico e estiloso.",
+          "preco": "$400.00",
+          "imagem": "img6.png",
+          "categoria": "Accessories"
+      },
+      {
+          "nome": "Women Shoe",
+          "descricao": "Um Sapato Feminino confortável e moderno.",
+          "preco": "$80.00",
+          "imagem": "img7.png",
+          "categoria": "Shoes"
+      },
+      {
+          "nome": "Black Handbag",
+          "descricao": "Uma Bolsa Preta elegante e versátil.",
+          "preco": "$120.00",
+          "imagem": "img8.png",
+          "categoria": "Bag"
+      },
+      {
+          "nome": "RGB Glasses",
+          "descricao": "Óculos de Proteção com lentes coloridas para estilo e segurança.",
+          "preco": "$70.00",
+          "imagem": "img9.png",
+          "categoria": "Glasses"
+      },
+      {
+          "nome": "Gold Ring",
+          "descricao": "Um Anel Dourado deslumbrante para completar seu visual.",
+          "preco": "$200.00",
+          "imagem": "img10.png",
+          "categoria": "Accessories"
+      }
+  ]
+}

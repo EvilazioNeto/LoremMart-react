@@ -1,0 +1,77 @@
+@import '../../styles/color.css';
+
+.filtrosBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .saudacaoTitle{
+        color: gray;
+
+        & span{
+            color: var(--cor-texto);
+        }
+    }
+
+    .filtros{
+        display: flex;
+        gap: 1rem;
+
+        & div:nth-child(2){
+
+            select{
+                padding: .8rem;
+                border: none;
+                background-color: #f4f6fa;
+                border-radius: 20px 0px 0px 20px;
+                border-right: 1px solid #dcdcdc;
+                outline: none;
+                color: gray;
+            }
+
+            button{
+                padding: .8em;
+                border: none;
+                padding: .8rem 1.5rem;
+                cursor: pointer;
+                background-color: #f4f6fa;
+                border-radius: 0px 20px 20px 0px;
+                color: gray;
+            }
+        }
+
+        & .generoBox{
+
+            button{
+                padding: .8em;
+                border: none;
+                padding: .8rem 1.5rem;
+                cursor: pointer;
+                background-color: #f4f6fa;
+                color: gray;
+                font-weight: bold;
+                transition: .1s;
+                border-bottom: 3px solid #fff;
+            }
+
+            button:hover{
+                background-color: #dcdcdc;
+                color: black;
+            }
+            
+            button:nth-child(2){
+                border-radius: 0px 20px 20px 0px;
+            }
+            button:nth-child(1){
+                border-radius: 20px 0px 0px 20px;
+            }
+            
+            .btnSelected{
+                background-color: #caaee9;
+                color: black;
+                font-weight: bold;
+                border-bottom: 3px solid black;
+            }
+        }
+    }
+}

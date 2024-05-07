@@ -1,0 +1,42 @@
+.cardProduto{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-family: 'Courier New', Courier, monospace;
+
+    .preco{
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .cartShopping{
+        position: absolute;
+        background-color: black;
+        color: #f4f6fa;
+        padding: .8rem;
+        border-radius: 50%;
+        right: 15px;
+        top: 10px;
+    }
+
+    .imgBox{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f6fa;
+        
+        & img{
+            width: 90%;
+            border-radius: 50%;
+            padding: .5rem;
+            transition: .3s ease;
+        }
+
+        & img:hover{
+            scale: 1.1;
+        }
+    }
+}

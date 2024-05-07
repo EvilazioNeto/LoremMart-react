@@ -1,0 +1,147 @@
+@import '../../styles/color.css';
+
+.promocoesBox{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+
+    
+    & .promocaoBox{
+        width: 400px;
+        border-radius: 15px;
+        background-color: #f2daf0;
+        /* padding: 1rem; */
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        & .shopNow{
+            z-index: 1;
+            display: inline-block;
+            padding: 2rem;
+            border-radius: 50%;
+            font-weight: bold;
+            position: absolute;
+            right: -20px;
+            bottom: -15px;
+            background-color: #ecfa67;
+            font-size: 18px;
+        }
+        
+        & .moreInfo{
+            border-radius: 25px 0px 0px 15px;
+            background-color: black;
+            width: 100%;
+            color: #f2daf0;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+
+            & div {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                & img{
+                    width: 40px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        & .promocaoDetalhesBox{
+            text-align: center;
+
+            & h2{
+                color: var(--cor-texto);
+            }
+
+            & p{
+                color: gray;
+            }
+        }
+        
+        & .imgsBox{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            font-weight: bold;
+            font-size: 1.5rem;
+            padding: .5rem;
+
+            & img{
+                width: 80px;
+                border-radius: 50%;
+                border: 2px solid gray;
+            }
+        }
+
+    }
+
+    & .promocaoBox2{
+        background: url('https://img.freepik.com/vetores-gratis/fundo-de-contorno-floral-desenhado-a-mao_52683-128389.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1714435200&semt=ais');
+        /* width: 400px; */
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+        font-size: 1.2rem;
+        border-radius: 15px;
+
+        & h2{
+            text-shadow: 1px 1px 0 #fff, 1px 1px 0 #fff;
+            text-align: center;
+        }
+
+        & button{
+            color: black;
+            font-size: 18px;
+            background-color: #caaee9;
+            padding: .8rem 1.5rem;
+            border: none;
+            border-bottom: 5px solid var(--cor-texto);
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+
+    & .promocaoBox3{
+        width: 380px;
+        background: url('https://img.freepik.com/free-vector/yellow-background-with-center-glowing-light-effect_1017-26185.jpg');
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        padding: .5rem;
+
+        & h2{
+            font-size: 2rem;
+            text-shadow: 1px 1px 0 #fff, 1px 1px 0 #fff;
+        }
+
+        img:nth-child(1){
+            width: 150px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .handbag{
+            width: 200px;
+            cursor: pointer;
+            transition: .3s ease;
+        }
+    }
+
+    .promocaoBox3:hover > .handbag{
+        scale: 1.2;
+    }
+}

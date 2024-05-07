@@ -1,0 +1,113 @@
+@import '../../styles/color.css';
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar {
+    width: 240px;
+    border-right: 1px solid #dcdcdc;
+    position: fixed;
+    padding-top: 93px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+
+    
+    & .optionsContainer {
+        /* padding: .8rem; */
+
+        & .accountBox{
+            margin-top: 1rem;
+            border-top: 1px solid #dcdcdc;
+            padding: .8rem;
+        }
+
+        & ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: .5rem;
+            list-style-type: none;
+            padding: 1rem;
+
+            & li {
+                & a{
+                    display: flex;
+                    gap: .5rem;
+                    cursor: pointer;
+                    border-radius: 25px;
+                    color: gray;
+                    font-size: 18px;  
+                    border-bottom: 5px solid #fff;
+                    transition: .3s ease;
+                    padding: .8rem 1.5rem;
+                    width: 100%;
+                    text-decoration: none;
+                }
+            }
+
+            & a:hover {
+                color: black;
+            }
+
+            & .btnSelected {
+                color: black;
+                /* font-weight: 600; */
+                font-size: 18px;
+                background-color: #caaee9;
+                border-bottom: 5px solid var(--cor-texto);
+            }
+        }
+
+        & .trendProductsBox {
+            background-color: #ecfa67;
+            border-radius: 10px;
+            padding: .5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            margin-top: 1rem;
+            margin-inline: 1rem;
+
+            & h2 {
+                width: 100%;
+                color: #000000;
+                text-shadow: 1px 1px 0 #fff, 1px 1px 0 #fff;
+            }
+
+            & .shoe {
+                width: 200px;
+                transform: translateY(-25px);
+                transition: .3s ease;
+            }
+
+            & .trendImg{
+                position: absolute;
+                width: 100px;
+                top: -30px;
+                right: -12px;
+            }
+
+            & svg {
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                background-color: black;
+                color: #fff;
+                padding: 1rem;
+                border-radius: 50%;
+                rotate: -30deg;
+                cursor: pointer;
+            }
+        }
+
+        & .trendProductsBox:hover > .shoe{
+            scale: 1.1;
+        }
+    }
+}

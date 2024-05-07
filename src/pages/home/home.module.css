@@ -1,0 +1,30 @@
+.homeContainer{
+    margin-top: 93px;
+    margin-left: 240px;
+    
+    & .apresentacaoBox{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1400px;
+        padding: 1rem;
+    }
+
+    & .produtosContainer{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1400px;
+        padding: 1rem;
+        gap: 1rem;
+
+        & .produtosBox{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+    }
+}
