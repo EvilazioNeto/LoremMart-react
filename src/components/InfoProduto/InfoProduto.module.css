@@ -1,0 +1,78 @@
+@import '../../styles/color.css';
+
+.produtoContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+
+    & .fotoProduto{
+        width: 400px;
+    }
+
+    & .fotoProduto:hover{
+        scale: 1.1;
+        transition: .3s ease;
+    }
+
+    & .InfoProduto{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        & .avaliacao{
+            width: 100px;
+        }
+
+        & .codigoPdt{
+            color: gray;
+        }
+
+        & .addFav{
+
+            color: var(--cor-texto);
+            font-weight: bold;
+
+            svg{
+                font-size: 1.5rem;
+                color: var(--cor-destaque);
+            }
+        }
+
+        .valorProduto{
+            font-size: 1.5rem;
+            font-weight: bold;
+
+        }
+
+        & h2{
+            font-size: 2.5rem;
+            color: var(--cor-destaque);
+        }
+
+        .pdtQtd{
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+
+            select{
+                padding: .8rem;
+                font-size: 18px;
+                width: 100px;
+                border: none;
+                border-bottom: 2px solid black;
+
+            }
+        }
+
+        .addCartBtn{
+            padding: 1rem 2.5rem;
+            background-color: var(--cor-texto);
+            font-weight: bold;
+            color: var(--cor-branca);
+            border-radius: 25px;
+            cursor: pointer;
+        }
+    }
+}

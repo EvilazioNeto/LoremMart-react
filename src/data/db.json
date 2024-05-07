@@ -78,7 +78,7 @@
           "categoria": "Accessories"
       },
       {
-          "nome": "Black Handbag",
+          "nome": "Black Small Handbag",
           "descricao": "Uma bolsa feminina.",
           "preco": "$120.00",
           "imagem": "img11.png",
@@ -146,6 +146,80 @@
           "preco": "$3000.00",
           "imagem": "img21.png",
           "categoria": "Accessories"
+      },
+      {
+          "nome": "Boina Peaky Blinders",
+          "descricao": "boina peaky blinders Cinza",
+          "preco": "$400.00",
+          "imagem": "img22.png",
+          "categoria": "Accessories"
+      },
+      {
+          "nome": "Cowboy Hat Western",
+          "descricao": "Cattleman | Mens Felt Cowboy Hat with Western Hat Band, American Hat Makers",
+          "preco": "$100.00",
+          "imagem": "img23.png",
+          "categoria": "Accessories"
+      },
+      {
+          "nome": "Boné New Era",
+          "descricao": "Boné New Era 9Forty New York Aba Curva Preto",
+          "preco": "$30.00",
+          "imagem": "img24.png",
+          "categoria": "Accessories"
       }
+  ],
+  "comentarios": [
+    {
+      "nome": "Maria Moreira da Silva",
+      "imagem_perfil": "img1.png",
+      "qualidade": "Excelente custo-benefício, muito útil no dia a dia."
+    },
+    {
+      "nome": "João Meireles Menezes",
+      "imagem_perfil": "img2.png",
+      "qualidade": "Durável e resistente, ótimo para longas jornadas de uso."
+    },
+    {
+      "nome": "Ana Rice Reus",
+      "imagem_perfil": "img3.png",
+      "qualidade": "Design elegante e moderno, atrai olhares por onde passa."
+    },
+    {
+      "nome": "Pedro Barbosa dos Santos",
+      "imagem_perfil": "img4.png",
+      "qualidade": "Funcionalidade incrível, supera minhas expectativas."
+    },
+    {
+      "nome": "Carla da Cruz Pereira",
+      "imagem_perfil": "img5.png",
+      "qualidade": "Fácil de usar, até mesmo para iniciantes."
+    },
+    {
+      "nome": "Marcos Jesus da Cruz",
+      "imagem_perfil": "img6.png",
+      "qualidade": "Alta performance, entrega resultados surpreendentes."
+    },
+    {
+      "nome": "Larissa Santana Bandeira",
+      "imagem_perfil": "img7.png",
+      "qualidade": "Leve e compacto, ideal para viagens e transporte."
+    },
+    {
+      "nome": "Rafael Souza Silva",
+      "imagem_perfil": "img8.png",
+      "qualidade": "Confortável e ergonômico, proporciona uma experiência agradável."
+    },
+    {
+      "nome": "Juliana Corrêa Domingues",
+      "imagem_perfil": "img9.png",
+      "qualidade": "Ótima qualidade de construção, parece muito robusto."
+    },
+    {
+      "nome": "Lucas Moura Ribeiro",
+      "imagem_perfil": "img10.png",
+      "qualidade": "Funciona perfeitamente, sem falhas até agora."
+    }
   ]
+
 }

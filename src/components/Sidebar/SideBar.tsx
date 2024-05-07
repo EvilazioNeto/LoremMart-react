@@ -46,10 +46,13 @@ function Sidebar() {
                     </li>
                 </ul>
                 <div className={styles.trendProductsBox}>
+                    
                     <img className={styles.trendImg} src="boom.png" alt="" />
                     <h2>Trend<br />Products</h2>
                     <img className={styles.shoe} src="shoeSale.png" alt="" />
-                    <FontAwesomeIcon icon={faArrowRight} />
+                    <Link to="/Shoe Sport">
+                        <FontAwesomeIcon icon={faArrowRight} />
+                    </Link>
                 </div>
                 <div className={styles.accountBox}>
                     <ul>

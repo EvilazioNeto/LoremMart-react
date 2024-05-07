@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './CardProduto.module.css';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 interface Produto {
     nome: string
@@ -17,12 +18,14 @@ interface CardProdutoProps {
 function CardProduto({ produto }: CardProdutoProps) {
     return (
         <div className={styles.cardProduto}>
-            <FontAwesomeIcon className={styles.cartShopping} icon={faCartShopping} />
-            <div className={styles.imgBox}>
-                <img src={`produtos/${produto.imagem}`} alt={produto.descricao} />
-            </div>
-            <p>{produto.nome}</p>
-            <p className={styles.preco}>{produto.preco}</p>
+            <Link to={`/${produto.nome}`}>
+                <FontAwesomeIcon className={styles.cartShopping} icon={faCartShopping} />
+                <div className={styles.imgBox}>
+                    <img src={`produtos/${produto.imagem}`} alt={produto.descricao} />
+                </div>
+                <p>{produto.nome}</p>
+                <p className={styles.preco}>{produto.preco}</p>
+            </Link>
         </div>
     )
 }

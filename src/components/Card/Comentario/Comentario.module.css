@@ -1,0 +1,41 @@
+.comentarioContainer{
+    display: flex;
+    align-items: flex-start;
+    gap: .5rem;
+
+    .infoCommentBox{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        & h3{
+            color: gray;
+        }
+    }
+
+    & .logoUsuario{
+        width: 60px;
+    }
+
+    & .comment{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        color: gray;
+
+        & img{
+            width: 70px;
+        }
+    }
+
+    & .interacaoComentarioBox{
+        display: flex;
+        gap: 1rem;
+
+        & p{
+            cursor: pointer;
+            font-size: 18px;
+            color: gray;
+        }
+    }
+}
