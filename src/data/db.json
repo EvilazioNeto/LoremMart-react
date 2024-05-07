@@ -5,13 +5,20 @@
           "descricao": "Óculos de Sol Aviador de Acetato Preto.",
           "preco": "$1200.00",
           "imagem": "img1.png",
-          "categoria": "Accessories"
+          "categoria": "Glasses"
       },
       {
           "nome": "Shoe",
           "descricao": "Um Sapato elegante para qualquer ocasião.",
           "preco": "$1500.00",
           "imagem": "img2.png",
+          "categoria": "Shoes"
+      },
+      {
+          "nome": "Shoe Sport",
+          "descricao": "Um Sapato esportivo para qualquer ocasião.",
+          "preco": "$2500.00",
+          "imagem": "img12.png",
           "categoria": "Shoes"
       },
       {
@@ -26,7 +33,7 @@
           "descricao": "Uma Camiseta Fleece Azul confortável para o dia a dia.",
           "preco": "$250.00",
           "imagem": "img4.png",
-          "categoria": "T-Shirt"
+          "categoria": "Jacket"
       },
       {
           "nome": "Black Fleece",
@@ -68,6 +75,76 @@
           "descricao": "Um Anel Dourado deslumbrante para completar seu visual.",
           "preco": "$200.00",
           "imagem": "img10.png",
+          "categoria": "Accessories"
+      },
+      {
+          "nome": "Black Handbag",
+          "descricao": "Uma bolsa feminina.",
+          "preco": "$120.00",
+          "imagem": "img11.png",
+          "categoria": "Bag"
+      },
+      {
+          "nome": "Red Handbag",
+          "descricao": "Uma bolsa feminina.",
+          "preco": "$120.00",
+          "imagem": "img13.png",
+          "categoria": "Bag"
+      },
+      {
+          "nome": "Blue Shoe",
+          "descricao": "Um sapato azul",
+          "preco": "$100.00",
+          "imagem": "img14.png",
+          "categoria": "Shoes"
+      },
+      {
+          "nome": "Red Jacket",
+          "descricao": "Uma jacket red",
+          "preco": "$100.00",
+          "imagem": "img15.png",
+          "categoria": "Jacket"
+      },
+      {
+          "nome": "Leather Jacket",
+          "descricao": "Leather black Jacket",
+          "preco": "$100.00",
+          "imagem": "img16.png",
+          "categoria": "Jacket"
+      },
+      {
+          "nome": "Óculos de grau",
+          "descricao": "Óculos de grau",
+          "preco": "$50.00",
+          "imagem": "img17.png",
+          "categoria": "Glasses"
+      },
+      {
+          "nome": "Blue T-shirt",
+          "descricao": "Blue T-shirt",
+          "preco": "$25.00",
+          "imagem": "img18.png",
+          "categoria": "T-Shirt"
+      },
+      {
+          "nome": "Blue T-shirt Blauw",
+          "descricao": "Blue T-shirt",
+          "preco": "$25.00",
+          "imagem": "img19.png",
+          "categoria": "T-Shirt"
+      },
+      {
+          "nome": "Red T-shirt",
+          "descricao": "Red T-shirt",
+          "preco": "$30.00",
+          "imagem": "img20.png",
+          "categoria": "T-Shirt"
+      },
+      {
+          "nome": "Colar de Ouro 18k",
+          "descricao": "Colar de Ouro 18k veneziana",
+          "preco": "$3000.00",
+          "imagem": "img21.png",
           "categoria": "Accessories"
       }
   ]

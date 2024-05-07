@@ -5,9 +5,9 @@ function Promocao() {
         <div className={styles.promocoesBox}>
             <div className={styles.promocaoBox}>
                 <div className={styles.imgsBox}>
-                    <img src="https://m.media-amazon.com/images/I/51wNd95WC2L._AC_.jpg" alt="" />
+                    <img src="/produtos/img8.png" alt="" />
                     +
-                    <img src="https://cdn.awsli.com.br/600x450/250/250759/produto/217266189/img-20211015-wa0070-io3co9xc1n.jpg" alt="" />
+                    <img src="/produtos/img7.png" alt="" />
                 </div>
                 <div className={styles.promocaoDetalhesBox}>
                     <h2>Buy 1 Get 1 Free !!</h2>
@@ -33,9 +33,9 @@ function Promocao() {
                 <button>Show Now</button>
             </div>
             <div className={styles.promocaoBox3}>
-                <img src="https://cdn.pixabay.com/animation/2023/10/10/13/26/13-26-26-701_512.gif" alt="" />
+                <img src="animationSale.gif" alt="" />
                 <h2>50% OFF!!!</h2>
-                <img className={styles.handbag} src="https://www.pngall.com/wp-content/uploads/8/Handbag-PNG-HD-Image.png" alt="" />
+                <img className={styles.handbag} src="/produtos/img11.png" alt="" />
             </div>
         </div>
     )

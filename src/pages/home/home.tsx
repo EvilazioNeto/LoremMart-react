@@ -3,7 +3,7 @@ import Filtro from '../../components/Filtro/Filtro';
 import Promocao from '../../components/Promocao/Promocao';
 import styles from './home.module.css';
 import produtosDB from '../../data/db.json';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import CardProduto from '../../components/Card/Produto/CardProduto';
 
 function Home(){
@@ -15,10 +15,6 @@ function Home(){
             produto.categoria.includes(categoriaFiltrada)
         )
     })
-
-    useEffect(() =>{
-        console.log(produtosFiltrados)
-    }, []);
 
     function handleCategoria(categoria: string){
         setCategoriaFiltrada(categoria)

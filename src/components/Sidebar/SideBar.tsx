@@ -22,7 +22,7 @@ function Sidebar() {
                     </li>
                     <li>
                         <Link onClick={() => handleButtonClick('bestOffer')}
-                            className={btnSelected === 'bestOffer' ? styles.btnSelected : ''} to="/">
+                            className={btnSelected === 'bestOffer' ? styles.btnSelected : ''} to="/bestOffer">
                             <FontAwesomeIcon icon={faBurst} /> Best Offer
                         </Link>
                     </li>
@@ -34,21 +34,21 @@ function Sidebar() {
                     </li>
                     <li>
                         <Link onClick={() => handleButtonClick('trackOrder')}
-                            className={btnSelected === 'trackOrder' ? styles.btnSelected : ''} to="/">
+                            className={btnSelected === 'trackOrder' ? styles.btnSelected : ''} to="/trackOrder">
                             <FontAwesomeIcon icon={faShuffle} /> Track Order
                         </Link>
                     </li>
                     <li>
                         <Link onClick={() => handleButtonClick('contact')}
-                            className={btnSelected === 'contact' ? styles.btnSelected : ''} to="/">
+                            className={btnSelected === 'contact' ? styles.btnSelected : ''} to="/contact">
                             <FontAwesomeIcon icon={faPhone} /> Contact
                         </Link>
                     </li>
                 </ul>
                 <div className={styles.trendProductsBox}>
-                    <img className={styles.trendImg} src="https://pnghq.com/wp-content/uploads/pnghq.com-blank-comic-boom-high-res-4.png" alt="" />
+                    <img className={styles.trendImg} src="boom.png" alt="" />
                     <h2>Trend<br />Products</h2>
-                    <img className={styles.shoe} src="https://pngimg.com/d/running_shoes_PNG5817.png" alt="" />
+                    <img className={styles.shoe} src="shoeSale.png" alt="" />
                     <FontAwesomeIcon icon={faArrowRight} />
                 </div>
                 <div className={styles.accountBox}>
@@ -62,7 +62,7 @@ function Sidebar() {
 
                         <li>
                             <Link onClick={() => handleButtonClick('settings')}
-                                className={btnSelected === 'settings' ? styles.btnSelected : ''} to="/">
+                                className={btnSelected === 'settings' ? styles.btnSelected : ''} to="/settings">
                                 <FontAwesomeIcon icon={faGear} /> Settings
                             </Link>
                         </li>

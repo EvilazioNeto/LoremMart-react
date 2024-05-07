@@ -77,13 +77,14 @@
                 width: 80px;
                 border-radius: 50%;
                 border: 2px solid gray;
+                background-color: #fff;
             }
         }
 
     }
 
     & .promocaoBox2{
-        background: url('https://img.freepik.com/vetores-gratis/fundo-de-contorno-floral-desenhado-a-mao_52683-128389.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1714435200&semt=ais');
+        background: url('backgroundRose.avif');
         /* width: 400px; */
         flex: 1;
         display: flex;
@@ -114,7 +115,7 @@
 
     & .promocaoBox3{
         width: 380px;
-        background: url('https://img.freepik.com/free-vector/yellow-background-with-center-glowing-light-effect_1017-26185.jpg');
+        background: url('backgroundYellow.avif');
         position: relative;
         display: flex;
         justify-content: center;

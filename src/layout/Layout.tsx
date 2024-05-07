@@ -8,7 +8,6 @@ function Layout({ children }: { children: ReactNode }) {
             <Header />
             <Sidebar />
             {children}
-            {/* <Footer /> */}
         </>
     )
 }

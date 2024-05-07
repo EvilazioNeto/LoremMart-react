@@ -6,7 +6,7 @@ function Header() {
     return (
         <header>
             <div className={styles.divLogo}>
-                <img className={styles.logo} src="https://www.semesb.com.br/wp-content/uploads/2019/10/cropped-logo-fundo-transparente.png" alt="" />
+                <img className={styles.logo} src="/logo.png" alt="" />
                 <h2>LoremMart</h2>
             </div>
             <div className={styles.searchBox}>
@@ -23,7 +23,7 @@ function Header() {
                 <button>SEARCH</button>
             </div>
             <div className={styles.userImgBox}>
-                <img className={styles.userImg} src="https://d128mjo55rz53e.cloudfront.net/media/images/blog-breed-munchkin_2.max-400x400.format-jpeg.jpg" alt="" />
+                <img className={styles.userImg} src="/userImgEx.jpg" alt="" />
             </div>
         </header>
     )
