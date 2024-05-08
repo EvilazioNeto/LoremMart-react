@@ -39,7 +39,7 @@ function Produto({ produto }: ProdutoProps) {
                         {produtosMesmaCategoria.map((produto) => (
                             <CardProduto key={produto.nome} produto={produto} />
                         ))}
-                    </div>
+                    </div> 
                 </section>
             </article>
             <article className={styles.comentariosContainer}>
@@ -61,7 +61,7 @@ function Produto({ produto }: ProdutoProps) {
                 </div>
                 <div className={styles.comentarioBox}>
                     {comentarios.map((comentario) => (
-                        <Comentario comentario={comentario}/>
+                        <Comentario key={comentario.imagem_perfil} comentario={comentario}/>
                     ))}
                 </div>
             </article>

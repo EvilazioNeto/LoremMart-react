@@ -34,7 +34,6 @@
             background-color: black;
             width: 100%;
             color: #f2daf0;
-            z-index: 1;
             display: flex;
             align-items: center;
             gap: 1rem;
@@ -94,6 +93,7 @@
         gap: .5rem;
         font-size: 1.2rem;
         border-radius: 15px;
+        padding: .5rem;
 
         & h2{
             text-shadow: 1px 1px 0 #fff, 1px 1px 0 #fff;
@@ -145,4 +145,49 @@
     .promocaoBox3:hover > .handbag{
         scale: 1.2;
     }
+}
+
+@media (max-width: 1200px){
+    .promocoesBox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        & .promocaoBox2{
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1100px){
+    .promocoesBox{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+
+        & .promocaoBox3{
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+   .promocoesBox{
+    width: 100%;
+        & .promocaoBox{
+            width: 100%;
+
+            & .shopNow{
+                display: none;
+            }
+
+            & .moreInfo{
+                flex-direction: column;
+            }
+        }
+
+        & .promocaoBox3{
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+   }
 }

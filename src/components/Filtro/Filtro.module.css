@@ -75,3 +75,48 @@
         }
     }
 }
+
+@media (max-width: 1000px){
+    .filtrosBox{
+        flex-direction: column;
+        align-items: self-start;
+        gap: .5rem;
+        
+        h1{
+            width: 100%;
+            text-align: center;
+        }
+
+        & .filtros{
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .filtrosBox{
+        & .filtros{
+            flex-direction: column;
+            gap: .5rem;
+
+            & .generoBox{
+
+                & button{
+                    width: 50%;
+                }
+            }
+
+            & div{
+                select{
+                    width: 50%;
+                }
+
+                button{
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+}

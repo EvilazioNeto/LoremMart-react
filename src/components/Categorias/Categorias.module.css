@@ -27,3 +27,12 @@
         }
     }
 }
+
+@media (max-width: 1000px){
+    .categoriasBox {
+    
+        & ul{
+            justify-content: center;
+        }
+    }
+}

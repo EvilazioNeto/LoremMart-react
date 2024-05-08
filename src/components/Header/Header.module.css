@@ -11,12 +11,24 @@ header{
     left: 0;
     border-bottom: 1px solid #dcdcdc;
     background-color: white;
-    z-index: 2;
+    z-index: 3;
+
+    & .barsBtnMobile{
+        display: none;
+        font-size: 2rem;
+        color: #9a7bbe;
+        cursor: pointer;
+    }
 
     .divLogo{
-        display: flex;
-        align-items: center;
-        color: var(--cor-texto);
+
+        & a{
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            align-items: center;
+            color: var(--cor-texto);
+        }
     }
 
     & .userImgBox{
@@ -88,5 +100,59 @@ header{
             border: none;
             border-right: 1px solid #dcdcdc;
         }
+    }
+}
+
+@media (max-width: 1200px){
+    header{
+
+        & .searchBox{
+
+            & input{
+                width: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px){
+    header{
+
+        & .searchBox{
+
+            button{
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px){
+    header{
+        gap: .5rem;
+        flex-direction: row-reverse;
+
+        & .barsBtnMobile{
+            display: block;
+        }
+
+        .divLogo{
+            display: none;
+        }
+    
+        .searchBox{
+            width: 100%;
+            display: none;
+
+            & select{
+                display: none;
+            }
+
+            & input{
+                border-radius: 25px;
+                width: 100%;
+            }
+        }   
     }
 }

@@ -216,4 +216,45 @@
     }
 }
 
+@media (max-width: 1200px){
+    .pagenotfoundContainer{
+        & article{
+            flex-direction: column;
 
+            & div:nth-child(1){
+
+                & img{
+                    width: 250px;
+                }
+            }
+
+            div:nth-child(2){
+
+                h1{
+                    font-size: 2rem;
+                    color: var(--cor-rosa);
+                    text-align: center;
+                }
+
+                p{
+                    text-align: center;
+                }
+        
+            }
+        }
+    }
+}
+
+@media (max-width: 900px){
+    .pagenotfoundContainer{
+        margin-left: 200px;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 768px){
+    .pagenotfoundContainer{
+        overflow: hidden;
+        margin-left: 0px;
+    }
+}

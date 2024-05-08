@@ -1,4 +1,4 @@
-.accountContainer{
+.accountContainer {
     margin-top: 93px;
     margin-left: 240px;
     padding: 1rem;
@@ -6,8 +6,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
-    & .userBox{
+
+    & .userBox {
         margin-top: 1rem;
         background: url('backgroundBlueLight.jpg');
         background-repeat: no-repeat;
@@ -19,22 +19,22 @@
         gap: 1rem;
         max-width: 1400px;
 
-        & .editarPerfilBox{
-    
-            & .inputsBox{
+        & .editarPerfilBox {
+
+            & .inputsBox {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 gap: 1rem;
-    
-                & input{
+
+                & input {
                     padding: 1rem;
                     border: none;
                     border-radius: 25px;
                     background-color: #f4f4f4;
                     border: 1px solid #dcdcdc;
                 }
-    
-                & select{
+
+                & select {
                     padding: .8rem;
                     border: none;
                     border-radius: 25px;
@@ -44,17 +44,17 @@
                 }
             }
         }
-    
-        & .fotoUsuarioBox{
+
+        & .fotoUsuarioBox {
             display: flex;
             justify-content: space-around;
             align-items: center;
             gap: 1rem;
 
-            div:nth-child(1){
+            div:nth-child(1) {
                 position: relative;
 
-                & svg{
+                & svg {
                     position: absolute;
                     top: 15px;
                     right: 15px;
@@ -63,27 +63,27 @@
                     padding: .5rem;
                 }
 
-                & img{
+                & img {
                     width: 180px;
                     border-radius: 50%;
                 }
-                
+
             }
-            
-            div:nth-child(2){
+
+            div:nth-child(2) {
                 display: flex;
                 flex-direction: column;
                 gap: .25rem;
             }
-    
+
         }
 
-        & .btnBox{
+        & .btnBox {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 1rem;
 
-            & button{
+            & button {
                 padding: 1rem;
                 border: none;
                 cursor: pointer;
@@ -92,14 +92,69 @@
                 border-radius: 25px;
             }
 
-            & button:nth-child(1){
+            & button:nth-child(1) {
                 background-color: #0fa958;
             }
 
-            & button:nth-child(2){
+            & button:nth-child(2) {
                 background-color: #e74c3c;
             }
         }
     }
 
+}
+
+@media (max-width: 1000px) {
+    .accountContainer {
+
+        & .userBox{
+
+            & .editarPerfilBox {
+    
+                & .inputsBox {
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 900px) {
+    .accountContainer{
+        margin-left: 200px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .accountContainer{
+        margin-left: 0px;
+        padding: .5rem;
+        padding-top: 0rem;
+        
+        & .userBox{
+            width: 100%;
+            background: none;
+
+            & .fotoUsuarioBox{
+                flex-direction: column;
+                text-align: center;
+            }
+
+            & .editarPerfilBox {
+    
+                & .inputsBox {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            & .inputsBox{
+
+                & input{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }

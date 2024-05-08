@@ -4,14 +4,19 @@ import { faArrowRight, faBox, faBurst, faGear, faHouse, faPhone, faShuffle, faUs
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-function Sidebar() {
+interface SidebarProps {
+    setSidebar: boolean
+}
+
+function Sidebar({ setSidebar }: SidebarProps) {
     const [btnSelected, setBtnSelected] = useState<string>('home');
 
     const handleButtonClick = (buttonName: string) => {
         setBtnSelected(buttonName);
     };
+
     return (
-        <aside className={styles.sidebar}>
+        <aside className={`${styles.sidebar} ${setSidebar === true && styles.handleSidebar}`}>
             <div className={styles.optionsContainer}>
                 <ul>
                     <li>
@@ -46,7 +51,7 @@ function Sidebar() {
                     </li>
                 </ul>
                 <div className={styles.trendProductsBox}>
-                    
+
                     <img className={styles.trendImg} src="boom.png" alt="" />
                     <h2>Trend<br />Products</h2>
                     <img className={styles.shoe} src="shoeSale.png" alt="" />

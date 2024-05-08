@@ -1,14 +1,24 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './Header.module.css'
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 // import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-function Header() {
+interface HeaderProps {
+    handleSidebar: () => void;
+}
+
+function Header({ handleSidebar }: HeaderProps) {
     return (
         <header>
             <div className={styles.divLogo}>
-                <img className={styles.logo} src="/logo.png" alt="" />
-                <h2>LoremMart</h2>
+                <Link to="/">
+                    <img className={styles.logo} src="/logo.png" alt="" />
+                    <h2>LoremMart</h2>
+                </Link>
             </div>
+            <FontAwesomeIcon onClick={() => handleSidebar()} className={styles.barsBtnMobile} icon={faBars} />
             <div className={styles.searchBox}>
                 <select name="" id="">
                     <option value="">São Paulo, Brasil</option>
@@ -23,7 +33,9 @@ function Header() {
                 <button>SEARCH</button>
             </div>
             <div className={styles.userImgBox}>
-                <img className={styles.userImg} src="/userImgEx.jpg" alt="" />
+                <Link to="/account">
+                    <img className={styles.userImg} src="/userImgEx.jpg" alt="" />
+                </Link>
             </div>
         </header>
     )
