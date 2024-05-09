@@ -8,3 +8,14 @@ body, html{
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
 }
+
+.Toastify__toast {
+  top: calc(93px - .5rem);
+}
+
+@media( max-width: 480px){
+  .Toastify__toast {
+    margin: .5rem;
+    top: 93px;
+  }
+}

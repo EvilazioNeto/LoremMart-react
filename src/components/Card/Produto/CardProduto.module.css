@@ -24,8 +24,9 @@
         color: #f4f6fa;
         padding: .8rem;
         border-radius: 50%;
-        right: 15px;
+        right: 10px;
         top: 10px;
+        cursor: pointer;
     }
 
     .imgBox{
