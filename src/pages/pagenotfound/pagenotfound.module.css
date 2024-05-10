@@ -1,8 +1,11 @@
+@import '../../styles/globals.css';
+
+
 .pagenotfoundContainer{
     display: flex;
     align-items: center;
     justify-self: center;
-    margin-top: 93px;
+    margin-top: var(--distancia-header);
     margin-left: 240px;
     min-height: calc(100dvh - 93px);
 

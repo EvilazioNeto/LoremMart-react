@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './CardProduto.module.css';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import { toast } from 'react-toastify';
+import { handleCarrinho } from '../../../util/carrinho/handleCarrinho';
 
 interface Produto {
     nome: string
@@ -17,9 +17,6 @@ interface CardProdutoProps {
 }
 
 function CardProduto({ produto }: CardProdutoProps) {
-    function handleCarrinho(produto: Produto){
-        toast.success(`${produto.nome} adicionado no carrinho!`);
-    }
 
     return (
         <div className={styles.cardProduto}>

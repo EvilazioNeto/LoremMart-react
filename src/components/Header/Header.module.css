@@ -1,6 +1,6 @@
 @import '../../styles/color.css';
 
-header{
+header {
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -13,16 +13,16 @@ header{
     background-color: white;
     z-index: 3;
 
-    & .barsBtnMobile{
+    & .barsBtnMobile {
         display: none;
         font-size: 2rem;
         color: #9a7bbe;
         cursor: pointer;
     }
 
-    .divLogo{
+    .divLogo {
 
-        & a{
+        & a {
             text-decoration: none;
             font-family: 'Courier New', Courier, monospace;
             display: flex;
@@ -31,25 +31,31 @@ header{
         }
     }
 
-    & .userImgBox{
+    & .userImgBox {
         display: flex;
         align-items: center;
-        gap: .5rem;
+        gap: 1rem;
 
-        & .userImg{
+        & .addToCartBtn {
+            color: #9a7bbe;
+            font-size: 2rem;
+            padding: .5rem;
+        }
+
+        & .userImg {
             width: 60px;
             border-radius: 50%;
         }
     }
 
-    & .logo{
+    & .logo {
         width: 60px;
     }
 
-    & .searchBox{
+    & .searchBox {
         position: relative;
 
-        & button{
+        & button {
             padding: .8rem 1.5rem;
             background-color: black;
             color: #fff;
@@ -63,11 +69,11 @@ header{
             transition: .3s ease;
         }
 
-        & button:hover{
+        & button:hover {
             background-color: var(--cor-texto);
             border-bottom: 5px solid #afb0b1;
         }
-        
+
         .searchIcon {
             position: absolute;
             right: 10px;
@@ -76,7 +82,7 @@ header{
             color: #afb0b1;
         }
 
-        & input{
+        & input {
             padding: .8rem;
             outline: none;
             background-color: #dcdcdc;
@@ -89,7 +95,7 @@ header{
 
         }
 
-        & select{
+        & select {
             font-size: 18px;
             background-color: #dcdcdc;
             padding: .8rem;
@@ -103,56 +109,74 @@ header{
     }
 }
 
-@media (max-width: 1200px){
-    header{
+@media (max-width: 1200px) {
+    header {
 
-        & .searchBox{
+        & .searchBox {
 
-            & input{
+            & input {
                 width: auto;
             }
         }
     }
 }
 
-@media (max-width: 900px){
-    header{
+@media (max-width: 1000px) {
+    header {
 
-        & .searchBox{
+        & .divLogo {
 
-            button{
+            a{
+                h2{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    header {
+
+        & .searchBox {
+
+            button {
                 display: none;
             }
         }
     }
 }
 
-
-@media (max-width: 768px){
-    header{
+@media (max-width: 768px) {
+    header {
         gap: .5rem;
         flex-direction: row-reverse;
 
-        & .barsBtnMobile{
+        & .userImgBox{
+            flex-direction: row-reverse;
+            gap: .5rem;
+        }
+
+        & .barsBtnMobile {
             display: block;
         }
 
-        .divLogo{
+        .divLogo {
             display: none;
         }
-    
-        .searchBox{
+
+        .searchBox {
             width: 100%;
             display: none;
 
-            & select{
+            & select {
                 display: none;
             }
 
-            & input{
+            & input {
                 border-radius: 25px;
                 width: 100%;
             }
-        }   
+        }
     }
 }

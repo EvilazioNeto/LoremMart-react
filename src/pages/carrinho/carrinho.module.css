@@ -1,0 +1,123 @@
+@import '../../styles/globals.css';
+
+.carrinhoContainer {
+    margin-top: var(--distancia-header);
+    margin-left: 240px;
+
+    & article {
+        margin: 0 auto;
+        max-width: 1400px;
+        width: 100%;
+    }
+
+    & .carrinhoBox {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem;
+
+        & .boxTitle {
+            display: flex;
+            gap: .8rem;
+            padding: 1rem;
+            border-bottom: 1px solid black;
+
+            & h1 {
+                font-size: 2.5rem;
+            }
+
+            & input {
+                width: 20px;
+            }
+        }
+
+        & .produtosSelecionadosBox {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+
+            & .formsBox {
+                width: 400px;
+
+                & div {
+                    border: 1px solid black;
+                    padding: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+
+                    & p {
+                        color: gray;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    button {
+                        padding: 1rem;
+                        background-color: var(--cor-texto);
+                        color: var(--cor-branca);
+                        font-weight: bold;
+                        cursor: pointer;
+                        border: none;
+                    }
+                }
+            }
+
+            & .cardsBox {
+                flex: 1;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .carrinhoContainer {
+
+        & .carrinhoBox {
+
+            .produtosSelecionadosBox {
+                gap: 1rem;
+
+                & .formsBox {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .carrinhoContainer {
+        margin-left: 200px;
+
+        & .carrinhoBox {
+
+            .produtosSelecionadosBox {
+                flex-direction: column;
+
+                & .formsBox {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .carrinhoContainer {
+        margin-left: 0;
+
+        & .carrinhoBox {
+
+            & .boxTitle {
+     
+
+                & h1 {
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+}

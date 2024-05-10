@@ -1,7 +1,7 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './Header.module.css'
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 // import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
@@ -33,6 +33,9 @@ function Header({ handleSidebar }: HeaderProps) {
                 <button>SEARCH</button>
             </div>
             <div className={styles.userImgBox}>
+                <Link to="/carrinho">
+                    <FontAwesomeIcon className={styles.addToCartBtn} icon={faCartShopping}/>
+                </Link>
                 <Link to="/account">
                     <img className={styles.userImg} src="/userImgEx.jpg" alt="" />
                 </Link>

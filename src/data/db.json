@@ -1,225 +1,248 @@
 {
-  "produtos": [
-      {
-          "nome": "Óculos de Sol",
-          "descricao": "Óculos de Sol Aviador de Acetato Preto.",
-          "preco": "$1200.00",
-          "imagem": "img1.png",
-          "categoria": "Glasses"
-      },
-      {
-          "nome": "Shoe",
-          "descricao": "Um Sapato elegante para qualquer ocasião.",
-          "preco": "$1500.00",
-          "imagem": "img2.png",
-          "categoria": "Shoes"
-      },
-      {
-          "nome": "Shoe Sport",
-          "descricao": "Um Sapato esportivo para qualquer ocasião.",
-          "preco": "$2500.00",
-          "imagem": "img12.png",
-          "categoria": "Shoes"
-      },
-      {
-          "nome": "Yellow handbag",
-          "descricao": "Uma Bolsa Amarela espaçosa e moderna.",
-          "preco": "$100.00",
-          "imagem": "img3.png",
-          "categoria": "Bag"
-      },
-      {
-          "nome": "Fleece Blue",
-          "descricao": "Uma Camiseta Fleece Azul confortável para o dia a dia.",
-          "preco": "$250.00",
-          "imagem": "img4.png",
-          "categoria": "Jacket"
-      },
-      {
-          "nome": "Black Fleece",
-          "descricao": "Um Casaco Preto elegante e quente para o inverno.",
-          "preco": "$800.00",
-          "imagem": "img5.png",
-          "categoria": "Jacket"
-      },
-      {
-          "nome": "Brown Hat",
-          "descricao": "Um Chapéu Marrom clássico e estiloso.",
-          "preco": "$400.00",
-          "imagem": "img6.png",
-          "categoria": "Accessories"
-      },
-      {
-          "nome": "Women Shoe",
-          "descricao": "Um Sapato Feminino confortável e moderno.",
-          "preco": "$80.00",
-          "imagem": "img7.png",
-          "categoria": "Shoes"
-      },
-      {
-          "nome": "Black Handbag",
-          "descricao": "Uma Bolsa Preta elegante e versátil.",
-          "preco": "$120.00",
-          "imagem": "img8.png",
-          "categoria": "Bag"
-      },
-      {
-          "nome": "RGB Glasses",
-          "descricao": "Óculos de Proteção com lentes coloridas para estilo e segurança.",
-          "preco": "$70.00",
-          "imagem": "img9.png",
-          "categoria": "Glasses"
-      },
-      {
-          "nome": "Gold Ring",
-          "descricao": "Um Anel Dourado deslumbrante para completar seu visual.",
-          "preco": "$200.00",
-          "imagem": "img10.png",
-          "categoria": "Accessories"
-      },
-      {
-          "nome": "Black Small Handbag",
-          "descricao": "Uma bolsa feminina.",
-          "preco": "$120.00",
-          "imagem": "img11.png",
-          "categoria": "Bag"
-      },
-      {
-          "nome": "Red Handbag",
-          "descricao": "Uma bolsa feminina.",
-          "preco": "$120.00",
-          "imagem": "img13.png",
-          "categoria": "Bag"
-      },
-      {
-          "nome": "Blue Shoe",
-          "descricao": "Um sapato azul",
-          "preco": "$100.00",
-          "imagem": "img14.png",
-          "categoria": "Shoes"
-      },
-      {
-          "nome": "Red Jacket",
-          "descricao": "Uma jacket red",
-          "preco": "$100.00",
-          "imagem": "img15.png",
-          "categoria": "Jacket"
-      },
-      {
-          "nome": "Leather Jacket",
-          "descricao": "Leather black Jacket",
-          "preco": "$100.00",
-          "imagem": "img16.png",
-          "categoria": "Jacket"
-      },
-      {
-          "nome": "Óculos de grau",
-          "descricao": "Óculos de grau",
-          "preco": "$50.00",
-          "imagem": "img17.png",
-          "categoria": "Glasses"
-      },
-      {
-          "nome": "Blue T-shirt",
-          "descricao": "Blue T-shirt",
-          "preco": "$25.00",
-          "imagem": "img18.png",
-          "categoria": "T-Shirt"
-      },
-      {
-          "nome": "Blue T-shirt Blauw",
-          "descricao": "Blue T-shirt",
-          "preco": "$25.00",
-          "imagem": "img19.png",
-          "categoria": "T-Shirt"
-      },
-      {
-          "nome": "Red T-shirt",
-          "descricao": "Red T-shirt",
-          "preco": "$30.00",
-          "imagem": "img20.png",
-          "categoria": "T-Shirt"
-      },
-      {
-          "nome": "Colar de Ouro 18k",
-          "descricao": "Colar de Ouro 18k veneziana",
-          "preco": "$3000.00",
-          "imagem": "img21.png",
-          "categoria": "Accessories"
-      },
-      {
-          "nome": "Boina Peaky Blinders",
-          "descricao": "boina peaky blinders Cinza",
-          "preco": "$400.00",
-          "imagem": "img22.png",
-          "categoria": "Accessories"
-      },
-      {
-          "nome": "Cowboy Hat Western",
-          "descricao": "Cattleman | Mens Felt Cowboy Hat with Western Hat Band, American Hat Makers",
-          "preco": "$100.00",
-          "imagem": "img23.png",
-          "categoria": "Accessories"
-      },
-      {
-          "nome": "Boné New Era",
-          "descricao": "Boné New Era 9Forty New York Aba Curva Preto",
-          "preco": "$30.00",
-          "imagem": "img24.png",
-          "categoria": "Accessories"
-      }
-  ],
-  "comentarios": [
-    {
-      "nome": "Maria Moreira da Silva",
-      "imagem_perfil": "img1.png",
-      "qualidade": "Excelente custo-benefício, muito útil no dia a dia."
-    },
-    {
-      "nome": "João Meireles Menezes",
-      "imagem_perfil": "img2.png",
-      "qualidade": "Durável e resistente, ótimo para longas jornadas de uso."
-    },
-    {
-      "nome": "Ana Rice Reus",
-      "imagem_perfil": "img3.png",
-      "qualidade": "Design elegante e moderno, atrai olhares por onde passa."
-    },
-    {
-      "nome": "Pedro Barbosa dos Santos",
-      "imagem_perfil": "img4.png",
-      "qualidade": "Funcionalidade incrível, supera minhas expectativas."
-    },
-    {
-      "nome": "Carla da Cruz Pereira",
-      "imagem_perfil": "img5.png",
-      "qualidade": "Fácil de usar, até mesmo para iniciantes."
-    },
-    {
-      "nome": "Marcos Jesus da Cruz",
-      "imagem_perfil": "img6.png",
-      "qualidade": "Alta performance, entrega resultados surpreendentes."
-    },
-    {
-      "nome": "Larissa Santana Bandeira",
-      "imagem_perfil": "img7.png",
-      "qualidade": "Leve e compacto, ideal para viagens e transporte."
-    },
-    {
-      "nome": "Rafael Souza Silva",
-      "imagem_perfil": "img8.png",
-      "qualidade": "Confortável e ergonômico, proporciona uma experiência agradável."
-    },
-    {
-      "nome": "Juliana Corrêa Domingues",
-      "imagem_perfil": "img9.png",
-      "qualidade": "Ótima qualidade de construção, parece muito robusto."
-    },
-    {
-      "nome": "Lucas Moura Ribeiro",
-      "imagem_perfil": "img10.png",
-      "qualidade": "Funciona perfeitamente, sem falhas até agora."
-    }
-  ]
-
+    "produtos": [
+        {
+            "nome": "Óculos de Sol",
+            "descricao": "Óculos de Sol Aviador de Acetato Preto.",
+            "preco": "$1200.00",
+            "imagem": "img1.png",
+            "categoria": "Glasses",
+            "id": 1
+        },
+        {
+            "id": 2,
+            "nome": "Shoe",
+            "descricao": "Um Sapato elegante para qualquer ocasião.",
+            "preco": "$1500.00",
+            "imagem": "img2.png",
+            "categoria": "Shoes"
+        },
+        {
+            "id": 3,
+            "nome": "Shoe Sport",
+            "descricao": "Um Sapato esportivo para qualquer ocasião.",
+            "preco": "$2500.00",
+            "imagem": "img12.png",
+            "categoria": "Shoes"
+        },
+        {
+            "id": 4,
+            "nome": "Yellow handbag",
+            "descricao": "Uma Bolsa Amarela espaçosa e moderna.",
+            "preco": "$100.00",
+            "imagem": "img3.png",
+            "categoria": "Bag"
+        },
+        {
+            "id": 5,
+            "nome": "Fleece Blue",
+            "descricao": "Uma Camiseta Fleece Azul confortável para o dia a dia.",
+            "preco": "$250.00",
+            "imagem": "img4.png",
+            "categoria": "Jacket"
+        },
+        {
+            "id": 6,
+            "nome": "Black Fleece",
+            "descricao": "Um Casaco Preto elegante e quente para o inverno.",
+            "preco": "$800.00",
+            "imagem": "img5.png",
+            "categoria": "Jacket"
+        },
+        {
+            "id": 7,
+            "nome": "Brown Hat",
+            "descricao": "Um Chapéu Marrom clássico e estiloso.",
+            "preco": "$400.00",
+            "imagem": "img6.png",
+            "categoria": "Accessories"
+        },
+        {
+            "id": 8,
+            "nome": "Women Shoe",
+            "descricao": "Um Sapato Feminino confortável e moderno.",
+            "preco": "$80.50",
+            "imagem": "img7.png",
+            "categoria": "Shoes"
+        },
+        {
+            "id": 9,
+            "nome": "Black Handbag",
+            "descricao": "Uma Bolsa Preta elegante e versátil.",
+            "preco": "$120.00",
+            "imagem": "img8.png",
+            "categoria": "Bag"
+        },
+        {
+            "id": 10,
+            "nome": "RGB Glasses",
+            "descricao": "Óculos de Proteção com lentes coloridas para estilo e segurança.",
+            "preco": "$70.00",
+            "imagem": "img9.png",
+            "categoria": "Glasses"
+        },
+        {
+            "id": 11,
+            "nome": "Gold Ring",
+            "descricao": "Um Anel Dourado deslumbrante para completar seu visual.",
+            "preco": "$200.00",
+            "imagem": "img10.png",
+            "categoria": "Accessories"
+        },
+        {
+            "id": 12,
+            "nome": "Black Small Handbag",
+            "descricao": "Uma bolsa feminina.",
+            "preco": "$120.00",
+            "imagem": "img11.png",
+            "categoria": "Bag"
+        },
+        {
+            "id": 13,
+            "nome": "Red Handbag",
+            "descricao": "Uma bolsa feminina.",
+            "preco": "$120.00",
+            "imagem": "img13.png",
+            "categoria": "Bag"
+        },
+        {
+            "id": 14,
+            "nome": "Blue Shoe",
+            "descricao": "Um sapato azul",
+            "preco": "$100.00",
+            "imagem": "img14.png",
+            "categoria": "Shoes"
+        },
+        {
+            "id": 15,
+            "nome": "Red Jacket",
+            "descricao": "Uma jacket red",
+            "preco": "$100.00",
+            "imagem": "img15.png",
+            "categoria": "Jacket"
+        },
+        {
+            "id": 16,
+            "nome": "Leather Jacket",
+            "descricao": "Leather black Jacket",
+            "preco": "$100.00",
+            "imagem": "img16.png",
+            "categoria": "Jacket"
+        },
+        {
+            "id": 17,
+            "nome": "Óculos de grau",
+            "descricao": "Óculos de grau",
+            "preco": "$50.00",
+            "imagem": "img17.png",
+            "categoria": "Glasses"
+        },
+        {
+            "id": 18,
+            "nome": "Blue T-shirt",
+            "descricao": "Blue T-shirt",
+            "preco": "$25.00",
+            "imagem": "img18.png",
+            "categoria": "T-Shirt"
+        },
+        {
+            "id": 19,
+            "nome": "Blue T-shirt Blauw",
+            "descricao": "Blue T-shirt",
+            "preco": "$25.00",
+            "imagem": "img19.png",
+            "categoria": "T-Shirt"
+        },
+        {
+            "id": 20,
+            "nome": "Red T-shirt",
+            "descricao": "Red T-shirt",
+            "preco": "$30.00",
+            "imagem": "img20.png",
+            "categoria": "T-Shirt"
+        },
+        {
+            "id": 21,
+            "nome": "Colar de Ouro 18k",
+            "descricao": "Colar de Ouro 18k veneziana",
+            "preco": "$3000.00",
+            "imagem": "img21.png",
+            "categoria": "Accessories"
+        },
+        {
+            "id": 22,
+            "nome": "Boina Peaky Blinders",
+            "descricao": "boina peaky blinders Cinza",
+            "preco": "$400.00",
+            "imagem": "img22.png",
+            "categoria": "Accessories"
+        },
+        {
+            "id": 23,
+            "nome": "Cowboy Hat Western",
+            "descricao": "Cattleman | Mens Felt Cowboy Hat with Western Hat Band, American Hat Makers",
+            "preco": "$100.00",
+            "imagem": "img23.png",
+            "categoria": "Accessories"
+        },
+        {
+            "id": 24,
+            "nome": "Boné New Era",
+            "descricao": "Boné New Era 9Forty New York Aba Curva Preto",
+            "preco": "$30.00",
+            "imagem": "img24.png",
+            "categoria": "Accessories"
+        }
+    ],
+    "comentarios": [
+        {
+            "nome": "Maria Moreira da Silva",
+            "imagem_perfil": "img1.png",
+            "qualidade": "Excelente custo-benefício, muito útil no dia a dia."
+        },
+        {
+            "nome": "João Meireles Menezes",
+            "imagem_perfil": "img2.png",
+            "qualidade": "Durável e resistente, ótimo para longas jornadas de uso."
+        },
+        {
+            "nome": "Ana Rice Reus",
+            "imagem_perfil": "img3.png",
+            "qualidade": "Design elegante e moderno, atrai olhares por onde passa."
+        },
+        {
+            "nome": "Pedro Barbosa dos Santos",
+            "imagem_perfil": "img4.png",
+            "qualidade": "Funcionalidade incrível, supera minhas expectativas."
+        },
+        {
+            "nome": "Carla da Cruz Pereira",
+            "imagem_perfil": "img5.png",
+            "qualidade": "Fácil de usar, até mesmo para iniciantes."
+        },
+        {
+            "nome": "Marcos Jesus da Cruz",
+            "imagem_perfil": "img6.png",
+            "qualidade": "Alta performance, entrega resultados surpreendentes."
+        },
+        {
+            "nome": "Larissa Santana Bandeira",
+            "imagem_perfil": "img7.png",
+            "qualidade": "Leve e compacto, ideal para viagens e transporte."
+        },
+        {
+            "nome": "Rafael Souza Silva",
+            "imagem_perfil": "img8.png",
+            "qualidade": "Confortável e ergonômico, proporciona uma experiência agradável."
+        },
+        {
+            "nome": "Juliana Corrêa Domingues",
+            "imagem_perfil": "img9.png",
+            "qualidade": "Ótima qualidade de construção, parece muito robusto."
+        },
+        {
+            "nome": "Lucas Moura Ribeiro",
+            "imagem_perfil": "img10.png",
+            "qualidade": "Funciona perfeitamente, sem falhas até agora."
+        }
+    ]
 }

@@ -10,12 +10,11 @@ body, html{
 }
 
 .Toastify__toast {
-  top: calc(93px - .5rem);
+  top: 97px;
 }
 
 @media( max-width: 480px){
   .Toastify__toast {
     margin: .5rem;
-    top: 93px;
   }
 }

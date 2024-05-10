@@ -1,0 +1,134 @@
+.cardProdutoCarrinho {
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    width: 100%;
+
+    & .produtoInfoBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+
+        & div {
+            display: flex;
+            gap: .5rem;
+        }
+
+        & .boxTitle {
+            justify-content: space-between;
+
+            & p {
+                overflow: hidden;
+                font-size: 18px;
+                font-weight: bold;
+                max-width: 300px;
+                text-overflow: ellipsis;
+            }
+
+            & svg {
+                color: var(--cor-destaque);
+                font-size: 1.2rem;
+                cursor: pointer;
+            }
+        }
+
+        & .optionBox {
+            justify-content: space-between;
+
+            & select {
+                padding: .5rem;
+            }
+
+            div {
+                padding: .5rem;
+                border: 1px solid black;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                & svg{
+                    cursor: pointer;
+                }
+            }
+        }
+
+        & .priceBox {
+            justify-content: space-between;
+
+            a {
+                color: var(--cor-texto);
+                font-size: 12px;
+            }
+        }
+    }
+
+    & .imgBox {
+        display: flex;
+        gap: .5rem;
+
+        input {
+            width: 20px;
+        }
+
+        .fotoPdtCart {
+            width: 120px;
+            border: 1px solid black;
+            padding: .5rem;
+        }
+    }
+
+}
+
+@media (max-width: 500px){
+    .cardProdutoCarrinho{
+        & .imgBox{
+            align-items: center;
+            flex-direction: column-reverse;
+
+            & .fotoPdtCart{
+                width: 80px;
+            }
+        }
+
+        & .produtoInfoBox{
+            gap: .5rem;
+        }
+    }
+}
+
+@media (max-width: 350px){
+    .cardProdutoCarrinho{
+        align-items: center;
+
+        & .imgBox{
+    
+            & .fotoPdtCart{
+                width: 60px;
+            }
+        }
+
+        & .produtoInfoBox{
+
+            & .optionBox{
+                flex-direction: column;
+
+                & div:nth-child(2){
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                }
+            }
+
+            & .priceBox{
+                flex-direction: column;
+
+                span{
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+}

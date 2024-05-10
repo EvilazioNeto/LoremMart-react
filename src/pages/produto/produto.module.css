@@ -1,7 +1,8 @@
 @import '../../styles/color.css';
+@import '../../styles/globals.css';
 
 .produtoContainer {
-    margin-top: 93px;
+    margin-top: var(--distancia-header);
     margin-left: 240px;
     position: relative;
 

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './InfoProduto.module.css';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
-import { toast } from 'react-toastify';
+import { handleCarrinho } from '../../util/carrinho/handleCarrinho';
 
 interface Produto {
     nome: string
@@ -16,9 +16,6 @@ interface InfoProdutoProps {
 }
 
 function InfoProduto({ produto }: InfoProdutoProps) {
-    function handleCarrinho(produto: Produto){
-        toast.success(`${produto.nome} adicionado no carrinho!`);
-    }
 
     return (
         <div className={styles.produtoContainer}>
@@ -37,7 +34,7 @@ function InfoProduto({ produto }: InfoProdutoProps) {
                         <option value="">5</option>
                     </select>
                 </label>
-                <label className={styles.addFav} htmlFor=""><FontAwesomeIcon icon={faHeart}/> Add To Favorite</label>
+                <label className={styles.addFav} htmlFor=""><FontAwesomeIcon icon={faHeart} /> Add To Favorite</label>
                 <button onClick={() => handleCarrinho(produto)} className={styles.addCartBtn}>ADD TO CART</button>
             </div>
         </div>

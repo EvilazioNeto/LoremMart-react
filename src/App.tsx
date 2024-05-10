@@ -9,6 +9,7 @@ import produtos from './data/db.json';
 import Produto from './pages/produto/produto';
 import { useEffect } from 'react';
 import { ToastContainer } from 'react-toastify';
+import Carrinho from './pages/carrinho/carrinho';
 
 function ScrollToTopOnMount() {
   const { pathname } = useLocation();
@@ -28,6 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout><Home /></Layout>} />
           <Route path="/account" element={<Layout> <Account /> </Layout>} />
+          <Route path="/carrinho" element={<Layout> <Carrinho /> </Layout>} />
           {produtos.produtos.map((produto) => (
             <Route key={produto.nome} path={`/${produto.nome}`} element={<Layout><Produto produto={produto} /></Layout>} />
           ))}

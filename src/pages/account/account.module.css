@@ -1,5 +1,7 @@
+@import '../../styles/globals.css';
+
 .accountContainer {
-    margin-top: 93px;
+    margin-top: var(--distancia-header);
     margin-left: 240px;
     padding: 1rem;
     display: flex;
@@ -8,7 +10,6 @@
     align-items: center;
 
     & .userBox {
-        margin-top: 1rem;
         background: url('backgroundBlueLight.jpg');
         background-repeat: no-repeat;
         background-size: cover;
