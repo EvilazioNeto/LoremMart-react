@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+## LoremMart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
+Este projeto é um e-commerce desenvolvido utilizando React, TS e CSS puro, sem o uso de frameworks ou componentes prontos. O objetivo é criar um site leve e responsivo.
 
-Currently, two official plugins are available:
+## Demonstração
+[Vídeo - LoremMart](https://youtu.be/ja5pvBKcFiQ)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
+- React
+- TS
+- CSS
 
-## Expanding the ESLint configuration
+## Instalação
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/EvilazioNeto/LoremMart-react.git
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd LoremMart-react
 
-- Configure the top-level `parserOptions` property like this:
+3. Instale as dependências:
+   ```bash
+   npm install
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4. Execute o projeto
+   ```bash
+   npm run dev
